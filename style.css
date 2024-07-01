@@ -558,6 +558,10 @@ i {
     cursor: pointer;
 }
 
+.project-box h3 {
+    color: var(--text-color);
+}
+
 .project-box>i {
     font-size: 50px;
     color: #8749f2;
@@ -568,6 +572,7 @@ i {
     color: inherit;
     /* Inherits color from .project-box */
     margin-top: 5%;
+    color: var(--text-color);
 }
 
 .project-box:hover a {
