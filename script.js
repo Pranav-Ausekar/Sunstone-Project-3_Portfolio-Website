@@ -1,11 +1,14 @@
 function myMenuFunction() {
-    var menuBth = document.getElementById("myNavMenu");
+    var menuBtn = document.getElementById("myNavMenu");
 
-    if (menuBth.className === "nav-menu") {
-        menuBth.className += "responsive";
-    } else {
-        menuBth.className = "nav-menu";
-    }
+    // if (menuBtn.className === "nav-menu") {
+    //     menuBtn.className += "responsive";
+    // } else {
+    //     menuBtn.className = "nav-menu";
+    // }
+
+    const menuButton = document.getElementById("myNavMenu");
+    menuButton.classList.toggle("responsive");
 }
 
 /*--------Dark Mode--------*/
