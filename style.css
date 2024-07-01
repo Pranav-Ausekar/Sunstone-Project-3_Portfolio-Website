@@ -564,10 +564,20 @@ i {
     margin-bottom: 25px;
 }
 
-.project-box label {
+.project-box a {
+    color: inherit;
+    /* Inherits color from .project-box */
+}
+
+.project-box:hover a {
+    z-index: 3;
+    /* Set a higher z-index than other hovered elements */
+}
+
+/* .project-box label {
     font-size: 15px;
     color: var(--text-color);
-}
+} */
 
 .project-box::after,
 .contact-info::after {
