@@ -281,16 +281,16 @@ i {
     cursor: pointer;
 }
 
-.icon-circle {
+/* .icon-circle {
     position: absolute;
     transform: transform(-50%, -50%);
     width: 40px;
     height: 40px;
     border-radius: 50px;
     animation: iconSlide 4s infinite alternate;
-}
+} */
 
-@keyframes iconSlide {
+/* @keyframes iconSlide {
     25% {
         border: 2px solid #e6d12e;
         left: 0px;
@@ -310,12 +310,12 @@ i {
         border: 2px solid #47e115;
         left: 216px;
     }
-}
+} */
 
-.social-icons:hover .icon-circle {
+/* .social-icons:hover .icon-circle {
     animation-play-state: paused;
     cursor: pointer;
-}
+} */
 
 /*-----featured image-----*/
 
