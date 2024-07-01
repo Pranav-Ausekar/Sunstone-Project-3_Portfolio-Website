@@ -567,6 +567,7 @@ i {
 .project-box a {
     color: inherit;
     /* Inherits color from .project-box */
+    margin-top: 5%;
 }
 
 .project-box:hover a {
