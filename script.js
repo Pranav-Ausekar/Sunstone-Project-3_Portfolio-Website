@@ -8,7 +8,7 @@ function myMenuFunction() {
     }
 }
 
-/*------Dark Mode------*/
+/*--------Dark Mode--------*/
 
 const body = document.querySelector("body"),
     toggleSwitch = document.getElementById("toggle-switch");
@@ -16,3 +16,15 @@ const body = document.querySelector("body"),
 toggleSwitch.addEventListener("click", () => {
     body.classList.toggle("dark");
 });
+
+
+/*--------Typing effect-------*/
+
+var typingEffect = new Typed(".typedText", {
+    strings: ["Designer", "Coder", "Developer"],
+
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 2000,
+})
